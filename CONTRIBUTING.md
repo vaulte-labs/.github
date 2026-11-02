@@ -22,8 +22,8 @@ The repositories build against each other by relative path, so clone them side b
 ```sh
 mkdir vaulte && cd vaulte
 git clone https://github.com/vaulte-labs/libvault
-git clone https://github.com/vaulte-labs/sdk   # needs ../libvault
-git clone https://github.com/vaulte-labs/ts    # needs ../sdk and ../libvault
+git clone https://github.com/vaulte-labs/sdk-c            # needs ../libvault
+git clone https://github.com/vaulte-labs/sdk-typescript   # needs ../sdk-c and ../libvault
 ```
 
 Each repository pins its toolchain in `mise.toml`. With [mise](https://mise.jdx.dev), run

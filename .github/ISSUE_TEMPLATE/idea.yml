@@ -1,6 +1,6 @@
 name: Something you can't do yet
 description: Propose a change. Agree on it here before writing code.
-labels: [idea]
+labels: [enhancement]
 body:
   - type: textarea
     id: problem

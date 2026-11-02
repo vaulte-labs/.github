@@ -1,0 +1,39 @@
+name: Something went wrong
+description: Vaulte did something it shouldn't, or failed to do what it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Never paste a secret, a vault file, recovery words or a session token here, even a test one.
+        A security problem goes through [SECURITY.md](https://github.com/vaulte-labs/.github/blob/main/SECURITY.md), not an issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Include any message word for word.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1. Create a vault with ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: Output of `git rev-parse --short HEAD` in the repository you built.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: macOS 26.1, Apple M3, Secure Enclave
+    validations:
+      required: true

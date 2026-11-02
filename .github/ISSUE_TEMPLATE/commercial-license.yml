@@ -1,0 +1,27 @@
+name: Commercial license
+description: Use libvault, the SDKs or the C ABI under terms other than the AGPL-3.0.
+labels: [commercial-license]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Leave out anything confidential, and we'll take the details somewhere private.
+  - type: input
+    id: company
+    attributes:
+      label: Company
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: How would you use it?
+      description: Which repositories, in what product, and why the AGPL doesn't fit.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: How should we reach you privately?
+      description: An email address or a GitHub handle.
+    validations:
+      required: true

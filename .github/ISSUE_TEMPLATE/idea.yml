@@ -1,0 +1,16 @@
+name: Something you can't do yet
+description: Propose a change. Agree on it here before writing code.
+labels: [idea]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What can't you do today?
+      description: The person or agent, what they're trying to do, and what stops them.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What would you change?
+      description: If it touches keys, the vault format, the broker's policy or sync, say what an attacker could do afterwards that they can't today.

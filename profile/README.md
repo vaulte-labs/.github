@@ -5,7 +5,7 @@ logged.
 
 | Repository | What it is |
 |---|---|
-| [libvault](https://github.com/vaulte-labs/libvault) | The core: vault, broker, proxy, fill and sync, and the relay server |
+| [libvault](https://github.com/vaulte-labs/libvault) | The core: vault, broker, proxy, fill and sync |
 | [sdk-c](https://github.com/vaulte-labs/sdk-c) | The C SDK, whose ABI every app and other SDK is built on |
 | [sdk-typescript](https://github.com/vaulte-labs/sdk-typescript) | The TypeScript SDK, for Bun |
 

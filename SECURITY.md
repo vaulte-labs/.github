@@ -33,5 +33,4 @@ Only the latest commit on `main`. There are no releases yet.
 ## Good-faith research
 
 Test against your own vaults and devices. Don't access other people's data, and don't degrade the
-hosted relay for others: run your own with `lv-relay` to test it. Research done this way is welcome,
-and we won't pursue it.
+hosted relay for others. Research done this way is welcome, and we won't pursue it.
